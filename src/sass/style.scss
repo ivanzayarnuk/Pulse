@@ -7,7 +7,8 @@
 }
 
 .container {
-    max-width: 950px;
+    max-width: 960px;
+    padding: 0 5px 0 5px;
     margin: 0 auto;
 }
 
@@ -15,3 +16,8 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/benefits';
+@import 'media/media_1200';
+@import 'media/media_991';
+@import 'media/media_767';
+@import 'media/media_575';
+

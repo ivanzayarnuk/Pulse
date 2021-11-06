@@ -1,0 +1,23 @@
+@media ( max-width: 1200px){
+    .header{
+        &__logo {
+            width: 210px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            margin-top: 70px;
+        }   
+        &__icons {
+            align-items: flex-end;
+            margin-top: 40px;
+            width: 415px;
+        }
+    }
+    .button_main  {
+        margin-top: 55px;
+        width: 275px;
+    }
+    
+}
