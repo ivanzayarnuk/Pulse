@@ -2,12 +2,6 @@
     padding: 70px 0 64px 0;
     min-height: 473px;
     background-color: $benefits-color;
-    &__header {
-        text-align: center;
-        font-weight: 900;
-        font-size: 30px;
-        color: $black-color;
-    }
     
     &__wrapper {
         margin-top: 60px;
@@ -28,7 +22,7 @@
         }
     }
 
-    &__subheader {
+    &__subtitle {
         margin-top: 35px;
         font-weight: 900;
         font-size: 18px;

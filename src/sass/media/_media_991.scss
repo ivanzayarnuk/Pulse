@@ -56,10 +56,10 @@
         &__wrapper {
             margin-top: 40px;
         }
-        &__header {
-            font-size: 26px;
+        .title {
+            font-size: 28px;
         }
-        &__subheader {
+        &__subtitle {
             margin-top: 25px;
             font-size: 16px;
         }
@@ -73,6 +73,27 @@
             a {
                 font-size: 13px;
             }
+        }
+    }
+
+    .consultation {
+        min-height: 640px;
+        padding: 75px 0 50px 100px;
+        
+        .title_left {
+            font-size: 30px;
+        }
+        &__descr {
+            font-size: 19px;
+        }
+        .feed-form {
+            input{
+                height: 52px;
+            }
+        }
+        .button_submit {
+            height: 56px;
+            font-size: 15px;
         }
     }
 }

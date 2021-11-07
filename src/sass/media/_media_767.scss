@@ -42,6 +42,22 @@
         &__item {
             margin: 10px 10px;
         }
+        .title {
+            font-size: 27px;
+        }
+    }
+
+    .consultation {
+        min-height: 640px;
+        padding: 75px 0 50px 100px;
+        
+        .title_left {
+            font-size: 28px;
+            line-height: 37px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
     }
 
 }
