@@ -120,4 +120,19 @@
             margin-right: 5px;
         }
     }
+
+    .reviews {
+        .title {
+            font-size: 28px;
+        }
+        
+        &__item {
+            margin-top: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__name {
+            margin-top: 20px;
+        }
+    }
 }

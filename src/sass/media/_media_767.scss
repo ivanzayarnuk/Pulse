@@ -87,5 +87,29 @@
             margin-right: 5px;
         }
     }
+    .reviews {
+        .title {
+            font-size: 28px;
+        }
+        &-img__wrapper {
+            margin-right: 0;
+        }
+        &__item {
+            margin-top: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__theme {
+            line-height: 36px;
+            text-align: center;
+        }
+        &__name {
+            text-align: center;
+        }
+        &__descr {
+            padding: 0 10px;
+            width: auto;
+        }
+    }
 
 }

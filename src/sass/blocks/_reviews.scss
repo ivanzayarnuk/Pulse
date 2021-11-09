@@ -1,0 +1,52 @@
+.reviews {
+    padding-bottom: 48px;
+    min-height: 920px;
+
+    .title {
+        margin-bottom: 0;
+    }
+
+    &__item {
+        margin-top: 60px;
+        display: flex;
+        justify-content: start;
+    }
+
+    &-img__wrapper {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: $black-color;
+    }
+
+    &__theme {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+
+    &__descr {
+        margin-top: 10px;
+        width: 650px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $black-color;
+    }
+
+    &__subtitle {
+        line-height: 35px;
+    }
+}
