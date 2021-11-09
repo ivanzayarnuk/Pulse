@@ -1,5 +1,6 @@
 'use strict';
 
+/* Begin carousel */
 $(document).ready(function(){
     $('.carousel__inner').slick({
         // dots: true,
@@ -23,3 +24,5 @@ $(document).ready(function(){
           ]
       });
   });
+
+  /* End carousel */
