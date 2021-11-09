@@ -96,4 +96,28 @@
             font-size: 15px;
         }
     }
+
+    .carousel {
+        &__inner {
+            width: 75vW;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 75vw;
+            }
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        &__tabs {
+            padding-left: 0;
+        }
+        &-item {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
 }

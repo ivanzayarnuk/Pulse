@@ -59,5 +59,33 @@
             font-size: 18px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 75vW;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 75vw;
+            }
+        }
+    }
+    .catalog {
+        .title {
+            font-size: 27px;
+        }
+        &__tabs {
+            flex-wrap: wrap;
+        }
+        &__tab{
+            margin-bottom: 10px;       
+        }
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
 
 }
