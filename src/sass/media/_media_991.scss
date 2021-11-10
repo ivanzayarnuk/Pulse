@@ -135,4 +135,10 @@
             margin-top: 20px;
         }
     }
+    .modal {
+        &__close {
+            top: 18px;
+            right: 18px;
+        }
+    }
 }

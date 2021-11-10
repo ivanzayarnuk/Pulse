@@ -26,6 +26,7 @@ $(document).ready(function(){
             }
           ]
       });
+  /* End carousel */
 
       /* Переключення табів*/
         $('.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function(){
@@ -35,7 +36,7 @@ $(document).ready(function(){
         });
 
         function toggleSlide(item){
-                
+    
             $(item).each(function(i){
                 $(this).on('click', function (e){
                     e.preventDefault();
@@ -48,6 +49,21 @@ $(document).ready(function(){
         toggleSlide('.catalog-item__link');
         toggleSlide('.catalog-item__back');
 
-});
+        
+  // Script for modal Windows
 
-  /* End carousel */
+    $('[data-modal=consultation]').on('click', function (){
+        $('.overlay, #consultation').fadeIn('slow'); // Показує модальне вікно та підложку
+    });
+
+    $('.modal__close').on('click', function(){
+        $('.overlay, #consultation, #thanks, #order').fadeOut('slow'); // Закриває всі модальні вікна та підложку
+    });
+
+    $('.button_mini').each(function(i){
+        $(this).on('click',function(){
+            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+            $('.overlay, #order').fadeIn('slow');// Показує модальне вікно та підложку
+        });
+    });
+});
